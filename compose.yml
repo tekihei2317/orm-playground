@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:14.6-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: admin123
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: testdb

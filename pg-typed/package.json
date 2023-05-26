@@ -1,0 +1,16 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "sqlgen": "pgtyped -c pgtyped.json",
+    "sqlgen:watch": "pgtyped -w -c pgtyped.json"
+  },
+  "devDependencies": {
+    "@pgtyped/cli": "^2.2.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@pgtyped/runtime": "^2.1.0",
+    "@types/pg": "^8.10.1",
+    "pg": "^8.11.0"
+  }
+}
