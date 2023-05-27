@@ -1,0 +1,17 @@
+-- /* @name findPostById */
+-- select * from "Post" where hoge = :postwId;
+
+-- /* @name findPostWithComments */
+-- select
+--   "Post"."id",
+--   "Comment"."body"
+-- from
+--   "Post"
+--   inner join "Comment"
+--   on "Post"."id" = "Comment"."postId"
+-- where
+--   "Post"."id" = :postId
+-- ;
+
+-- /* @name findAllUsers */
+-- select * frmo "User";
