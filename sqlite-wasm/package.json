@@ -1,0 +1,6 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "^3.42.0-build1"
+  }
+}
