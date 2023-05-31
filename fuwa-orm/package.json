@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@fuwa-orm/cli": "^0.0.3",
+    "@types/better-sqlite3": "^7.6.4"
+  },
+  "dependencies": {
+    "@fuwa-orm/client": "^0.0.2",
+    "better-sqlite3": "^8.4.0"
+  }
+}
